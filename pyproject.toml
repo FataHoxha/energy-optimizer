@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "energy-optimizer"
+version = "0.1.0"
+description = "House Energy Optimizer"
+authors = ["Fata Hoxha"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+repository = ""
+
+[tool.poetry.dependencies]
+python = "^3.12"
